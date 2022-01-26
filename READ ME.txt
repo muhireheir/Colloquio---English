@@ -1,0 +1,23 @@
+Given the following psd / image, recreate the html with the following specifications:
+
+1_ Extras granted: Jquery, Bootstrap CSS (only if strictly necessary)
+NOTE: Bootstrap JS should not be used
+
+2_ Responsive, under 768 each input will occupy 100% of the space
+
+3_ Validation of the fields by clicking on the "Send" button, all fields are mandatory
+
+4_ "Phone" field must only admit numbers and must be valid if it contains from 8 to 10 digits
+
+5_ Email field validates that the format is correct
+
+6_ The rest of the fields will be valid if they have at least one character
+
+7_ Only for the "Phone" field, the validation must take place at the change, while for the rest of the fields by clicking on "SEND"
+
+8_ Click on "Reset" to empty all fields
+
+
+
+FIGMA
+https://www.figma.com/file/jQaPKUQ56x7SGK3HoJovRu/Form

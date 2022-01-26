@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Codeland</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <img class="logo" src="./img/codeland.png" alt="codeland logo">
+        </header>
+        <section class="form-container">
+                <div class="content">
+                    <p class="title">Contact us!</p>
+                    <form autocomplete="off" name="contactForm" action="">
+                        <div id="form-group">
+                            <div class="form-field">
+                                <label for="name">name</label>
+                                <input autocomplete="off" error="write your name and surname" name="name" class="form-input" type="text">
+                            </div>
+                            <div class="form-field">
+                                <label for="email">email</label>
+                                <input autocomplete="off" error="write an email(email@example.com)"  name="email" class="form-input" type="text">
+                            </div>
+                            <div class="form-field">
+                                <label for="phone">phone</label>
+                                <input autocomplete="off" type="number"  error="write your phone number"  name="phone" class="form-input" type="text">
+                            </div>
+                            <div class="form-field">
+                                <label for="Company">Company</label>
+                                <input autocomplete="off" error="write your company name"  name="Company" class="form-input" type="text">
+                            </div>
+                            <div class="form-field text-area">
+                                <textarea error="write your message"  placeholder="your text message" name="message" rows="5" class="form-input"></textarea>
+                            </div>
+                        </div>
+                      <div class="form-btns">
+                        <button id="send-btn" class="btn" type="submit">Send</button>
+                        <button id="reset-btn" class="btn"type="reset">Reset</button>
+                      </div>
+                    </form>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; codeland 2020</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
